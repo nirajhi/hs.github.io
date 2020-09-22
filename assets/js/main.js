@@ -714,5 +714,5 @@
 			self.html(event.strftime(_strf));
 		}).removeClass("hide");
 	});
-	
+
 })(jQuery);

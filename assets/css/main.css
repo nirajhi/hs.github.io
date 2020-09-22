@@ -540,10 +540,19 @@ mark, .mark {
     border-color: #fff;
 }
 
+
+.footer {
+    padding: 15px 15px;
+}
+
 @media (min-width: 993px) {
     .header {
         padding: 20px 40px;
         margin-bottom: 0;
+    }
+    .footer {
+        padding: 20px 40px;
+        margin-bottom: 10;
     }
 }
 
@@ -558,7 +567,7 @@ mark, .mark {
 }
 
 @media (min-width: 1401px) {
-    .header {
+    .header,.footer {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: justify;
@@ -567,6 +576,7 @@ mark, .mark {
         align-items: center;
         padding: 20px 70px;
     }
+
 }
 
 /* 4. general_service
