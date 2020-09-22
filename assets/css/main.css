@@ -567,13 +567,17 @@ mark, .mark {
 }
 
 @media (min-width: 1401px) {
-    .header,.footer {
+    .header {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: justify;
         justify-content: space-between;
         -ms-flex-align: center;
         align-items: center;
+        padding: 20px 70px;
+    }
+
+    .footer {
         padding: 20px 70px;
     }
 
